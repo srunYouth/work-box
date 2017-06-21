@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
-db_connect_string = 'mysql+mysqldb://root:ti@2016@172.16.105.114/ti?charset=utf8'
+db_connect_string = 'mysql+mysqldb://root:root@127.0.0.1/ti?charset=utf8'
 
 
 def getsession():
